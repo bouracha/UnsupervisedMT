@@ -50,12 +50,12 @@ FASTTEXT_DIR=$TOOLS_PATH/fastText
 FASTTEXT=$FASTTEXT_DIR/fasttext
 
 # files full paths
-SRC_RAW=$MONO_PATH/Hip.txt
-TGT_RAW=$MONO_PATH/Rock.txt
-SRC_TOK=$MONO_PATH/Hip.txt.tok
-TGT_TOK=$MONO_PATH/Rock.txt.tok
+SRC_RAW=$MONO_PATH/all.en #hiphop
+TGT_RAW=$MONO_PATH/all.fr #rock
+SRC_TOK=$MONO_PATH/all.en.tok
+TGT_TOK=$MONO_PATH/all.fr.tok
 BPE_CODES=$MONO_PATH/bpe_codes
-CONCAT_BPE=$MONO_PATH/HipRock.txt.$CODES
+CONCAT_BPE=$MONO_PATH/all.en-fr.$CODES
 SRC_VOCAB=$MONO_PATH/vocab.en.$CODES
 TGT_VOCAB=$MONO_PATH/vocab.fr.$CODES
 FULL_VOCAB=$MONO_PATH/vocab.en-fr.$CODES
